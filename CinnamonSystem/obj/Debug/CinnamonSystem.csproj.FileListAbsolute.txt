@@ -1,0 +1,12 @@
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\bin\Debug\CinnamonSystem.exe
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\bin\Debug\CinnamonSystem.exe.config
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\obj\Debug\CinnamonSystem.csproj.AssemblyReference.cache
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\obj\Debug\CinnamonSystem.dashboardform.resources
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\obj\Debug\CinnamonSystem.Form1.resources
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\obj\Debug\CinnamonSystem.GradingForm.resources
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\obj\Debug\CinnamonSystem.Properties.Resources.resources
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\obj\Debug\CinnamonSystem.csproj.GenerateResource.cache
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\obj\Debug\CinnamonSystem.csproj.CoreCompileInputs.cache
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\obj\Debug\CinnamonSystem.exe
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\obj\Debug\CinnamonSystem.pdb
+C:\Users\priya\OneDrive\Desktop\c#assigment cinoman\CinnamonSystem\CinnamonSystem\bin\Debug\CinnamonSystem.pdb
