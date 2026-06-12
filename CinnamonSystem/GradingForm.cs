@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using MySql.Data.MySqlClient;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -31,20 +32,21 @@ namespace CinnamonSystem
         {
             try
             {
-                // empty
+                // 1. check empty
                 if (cmbWorkers.SelectedIndex == -1 || txtDiameter.Text == "" || txtWeight.Text == "" || txtMoisture.Text == "")
                 {
-                    MessageBox.Show("Please fill in all fields including moisture percentage.");
+                    MessageBox.Show("Please fill in all fields.");
                     return;
                 }
 
-                // values
+                // 2. values
+                string worker = cmbWorkers.SelectedItem.ToString();
                 double diameter = Convert.ToDouble(txtDiameter.Text);
                 double weight = Convert.ToDouble(txtWeight.Text);
                 double moisture = Convert.ToDouble(txtMoisture.Text);
                 double pricePerKg = 0;
 
-                // grading
+                // 3. grading
                 if (diameter < 6)
                 {
                     txtGrade.Text = "Alba (Premium)";
@@ -61,23 +63,42 @@ namespace CinnamonSystem
                     pricePerKg = 1500;
                 }
 
-                // money
                 double totalPayout = weight * pricePerKg;
                 txtPayout.Text = totalPayout.ToString();
 
-                // Mmoisture drying alert
+                // 4. conect xamp
+                string connString = "server=localhost;database=cinnamon_db;uid=root;pwd=;";
+                using (MySqlConnection conn = new MySqlConnection(connString))
+                {
+                    conn.Open();
+                    string query = "INSERT INTO grading_records (worker_name, diameter, weight, moisture, grade, payout) VALUES (@worker, @dia, @wt, @moist, @grade, @pay)";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@worker", worker);
+                        cmd.Parameters.AddWithValue("@dia", diameter);
+                        cmd.Parameters.AddWithValue("@wt", weight);
+                        cmd.Parameters.AddWithValue("@moist", moisture);
+                        cmd.Parameters.AddWithValue("@grade", txtGrade.Text);
+                        cmd.Parameters.AddWithValue("@pay", totalPayout);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+
+                //  Moisture Alert
                 if (moisture > 12)
                 {
-                    MessageBox.Show("⚠️ MOISTURE ALERT: This batch has " + moisture + "% moisture. It needs more drying before it can be exported!", "Drying Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("⚠️ MOISTURE ALERT: Saved to database, but batch needs more drying!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
-                    MessageBox.Show("✅ Moisture level is perfect (" + moisture + "%). Ready for packaging!", "Moisture Check Pass", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("✅ Record saved successfully to XAMPP database!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Please enter valid numbers for diameter, weight, and moisture.");
+                MessageBox.Show("Error: " + ex.Message);
             }
         }
 
