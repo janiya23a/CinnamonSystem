@@ -31,16 +31,17 @@ namespace CinnamonSystem
         {
             try
             {
-                // emply check
-                if (cmbWorkers.SelectedIndex == -1 || txtDiameter.Text == "" || txtWeight.Text == "")
+                // empty
+                if (cmbWorkers.SelectedIndex == -1 || txtDiameter.Text == "" || txtWeight.Text == "" || txtMoisture.Text == "")
                 {
-                    MessageBox.Show("Please fill in all fields and select a worker.");
+                    MessageBox.Show("Please fill in all fields including moisture percentage.");
                     return;
                 }
 
                 // values
                 double diameter = Convert.ToDouble(txtDiameter.Text);
                 double weight = Convert.ToDouble(txtWeight.Text);
+                double moisture = Convert.ToDouble(txtMoisture.Text);
                 double pricePerKg = 0;
 
                 // grading
@@ -63,11 +64,26 @@ namespace CinnamonSystem
                 // money
                 double totalPayout = weight * pricePerKg;
                 txtPayout.Text = totalPayout.ToString();
+
+                // Mmoisture drying alert
+                if (moisture > 12)
+                {
+                    MessageBox.Show("⚠️ MOISTURE ALERT: This batch has " + moisture + "% moisture. It needs more drying before it can be exported!", "Drying Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    MessageBox.Show("✅ Moisture level is perfect (" + moisture + "%). Ready for packaging!", "Moisture Check Pass", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Please enter valid numbers for diameter and weight.");
+                MessageBox.Show("Please enter valid numbers for diameter, weight, and moisture.");
             }
+        }
+
+        private void txtMoisture_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

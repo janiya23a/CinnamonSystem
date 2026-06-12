@@ -43,6 +43,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtWeight = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtMoisture = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -73,7 +75,7 @@
             // txtGrade
             // 
             this.txtGrade.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.txtGrade.Location = new System.Drawing.Point(262, 345);
+            this.txtGrade.Location = new System.Drawing.Point(262, 363);
             this.txtGrade.Name = "txtGrade";
             this.txtGrade.ReadOnly = true;
             this.txtGrade.Size = new System.Drawing.Size(206, 20);
@@ -94,7 +96,7 @@
             this.button1.BackColor = System.Drawing.Color.NavajoWhite;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(167, 270);
+            this.button1.Location = new System.Drawing.Point(167, 307);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 32);
             this.button1.TabIndex = 5;
@@ -107,7 +109,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 343);
+            this.label3.Location = new System.Drawing.Point(27, 361);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(144, 22);
             this.label3.TabIndex = 6;
@@ -189,11 +191,32 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Total Payout (Rs):";
             // 
+            // txtMoisture
+            // 
+            this.txtMoisture.Location = new System.Drawing.Point(262, 261);
+            this.txtMoisture.Name = "txtMoisture";
+            this.txtMoisture.Size = new System.Drawing.Size(100, 20);
+            this.txtMoisture.TabIndex = 15;
+            this.txtMoisture.TextChanged += new System.EventHandler(this.txtMoisture_TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(27, 261);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(184, 22);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Moisture Content (%):";
+            // 
             // GradingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(514, 555);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtMoisture);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtWeight);
             this.Controls.Add(this.label5);
@@ -233,5 +256,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtWeight;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtMoisture;
+        private System.Windows.Forms.Label label7;
     }
 }
