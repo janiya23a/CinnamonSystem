@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|c:\\users\\priya\\onedrive\\desktop\\c#assigment cinoman\\cinnamonsystem\\cinnamonsystem\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|solutionrelative:cinnamonsystem\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\cinnamonsystem\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|solutionrelative:cinnamonsystem\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\cinnamonsystem\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|c:\\users\\priya\\onedrive\\desktop\\c#assigment cinoman\\cinnamonsystem\\cinnamonsystem\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|solutionrelative:cinnamonsystem\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\cinnamonsystem\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|solutionrelative:cinnamonsystem\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\cinnamonsystem\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|solutionrelative:cinnamonsystem\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\cinnamonsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,52 +38,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GradingForm.cs",
               "DocumentMoniker": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\GradingForm.cs",
               "RelativeDocumentMoniker": "CinnamonSystem\\GradingForm.cs",
-              "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\GradingForm.cs",
-              "RelativeToolTip": "CinnamonSystem\\GradingForm.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAcwDgAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\GradingForm.cs*",
+              "RelativeToolTip": "CinnamonSystem\\GradingForm.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T15:45:02.78Z"
+              "WhenOpened": "2026-06-11T15:45:02.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GradingForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\GradingForm.cs",
+              "RelativeDocumentMoniker": "CinnamonSystem\\GradingForm.cs",
+              "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\GradingForm.cs [Design]*",
+              "RelativeToolTip": "CinnamonSystem\\GradingForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T15:41:16.968Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GradingForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\GradingForm.cs",
-              "RelativeDocumentMoniker": "CinnamonSystem\\GradingForm.cs",
-              "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\GradingForm.cs [Design]",
-              "RelativeToolTip": "CinnamonSystem\\GradingForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T15:41:16.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "dashboardform.cs",
               "DocumentMoniker": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\dashboardform.cs",
               "RelativeDocumentMoniker": "CinnamonSystem\\dashboardform.cs",
-              "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\dashboardform.cs",
-              "RelativeToolTip": "CinnamonSystem\\dashboardform.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAjwBsAAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\dashboardform.cs*",
+              "RelativeToolTip": "CinnamonSystem\\dashboardform.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAawCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T15:17:50.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "dashboardform.cs [Design]",
               "DocumentMoniker": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\dashboardform.cs",
               "RelativeDocumentMoniker": "CinnamonSystem\\dashboardform.cs",
-              "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\dashboardform.cs [Design]",
-              "RelativeToolTip": "CinnamonSystem\\dashboardform.cs [Design]",
+              "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\dashboardform.cs [Design]*",
+              "RelativeToolTip": "CinnamonSystem\\dashboardform.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T15:07:39.537Z",
               "EditorCaption": " [Design]"

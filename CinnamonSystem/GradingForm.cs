@@ -31,27 +31,42 @@ namespace CinnamonSystem
         {
             try
             {
-                // diameter
-                double diameter = Convert.ToDouble(txtDiameter.Text);
+                // emply check
+                if (cmbWorkers.SelectedIndex == -1 || txtDiameter.Text == "" || txtWeight.Text == "")
+                {
+                    MessageBox.Show("Please fill in all fields and select a worker.");
+                    return;
+                }
 
-                // grade
+                // values
+                double diameter = Convert.ToDouble(txtDiameter.Text);
+                double weight = Convert.ToDouble(txtWeight.Text);
+                double pricePerKg = 0;
+
+                // grading
                 if (diameter < 6)
                 {
                     txtGrade.Text = "Alba (Premium)";
+                    pricePerKg = 4500;
                 }
                 else if (diameter < 16)
                 {
                     txtGrade.Text = "Continental";
+                    pricePerKg = 3000;
                 }
                 else
                 {
-                    txtGrade.Text = "Low Grade / Ordinary";
+                    txtGrade.Text = "Low Grade";
+                    pricePerKg = 1500;
                 }
+
+                // money
+                double totalPayout = weight * pricePerKg;
+                txtPayout.Text = totalPayout.ToString();
             }
             catch (Exception ex)
             {
-                // erros
-                MessageBox.Show("Please enter a valid number for the diameter.");
+                MessageBox.Show("Please enter valid numbers for diameter and weight.");
             }
         }
     }

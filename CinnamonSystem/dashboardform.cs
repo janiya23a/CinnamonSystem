@@ -27,5 +27,10 @@ namespace CinnamonSystem
             GradingForm grading = new GradingForm();
             grading.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
