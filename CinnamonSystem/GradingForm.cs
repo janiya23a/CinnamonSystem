@@ -106,5 +106,39 @@ namespace CinnamonSystem
         {
 
         }
+
+        private void GradingForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbWorkers_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+            private void button2_Click(object sender, EventArgs e)
+        {
+           
+            cmbWorkers.SelectedIndex = -1;
+
+            // cleat all textbx
+            txtDiameter.Text = "";
+            txtWeight.Text = "";
+            txtMoisture.Text = "";
+
+            // clear all ouput cal
+            txtGrade.Text = "";
+            txtPayout.Text = "";
+
+            // cursor center
+            cmbWorkers.Focus();
+        }
     }
+    
 }
