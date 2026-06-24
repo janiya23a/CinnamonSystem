@@ -182,6 +182,7 @@
             this.Controls.Add(this.btnGrading);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
+            this.MinimizeBox = false;
             this.Name = "dashboardform";
             this.Text = "dashboardform";
             this.Load += new System.EventHandler(this.dashboardform_Load);
