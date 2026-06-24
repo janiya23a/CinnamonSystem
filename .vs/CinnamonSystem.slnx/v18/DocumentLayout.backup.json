@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\cinnamonsystem\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|c:\\users\\priya\\onedrive\\desktop\\c#assigment cinoman\\cinnamonsystem\\cinnamonsystem\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|solutionrelative:cinnamonsystem\\gradingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|solutionrelative:cinnamonsystem\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|c:\\users\\priya\\onedrive\\desktop\\c#assigment cinoman\\cinnamonsystem\\cinnamonsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\cinnamonsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4FA6F96-366F-4619-A558-FEF757398ECB}|CinnamonSystem\\CinnamonSystem.csproj|solutionrelative:cinnamonsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -57,8 +57,7 @@
               "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\dashboardform.cs [Design]",
               "RelativeToolTip": "CinnamonSystem\\dashboardform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:04:18.004Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-23T14:04:18.004Z"
             },
             {
               "$type": "Document",
@@ -70,8 +69,7 @@
               "RelativeToolTip": "CinnamonSystem\\dashboardform.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwMYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:01:31.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T14:01:31.961Z"
             },
             {
               "$type": "Document",
@@ -83,8 +81,7 @@
               "RelativeToolTip": "CinnamonSystem\\Form1.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAuwAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T14:33:38.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T14:33:38.85Z"
             },
             {
               "$type": "Document",
@@ -95,8 +92,7 @@
               "ToolTip": "C:\\Users\\priya\\OneDrive\\Desktop\\c#assigment cinoman\\CinnamonSystem\\CinnamonSystem\\Form1.cs [Design]",
               "RelativeToolTip": "CinnamonSystem\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:04:31.432Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-23T14:04:31.432Z"
             },
             {
               "$type": "Document",
@@ -132,8 +128,7 @@
               "RelativeToolTip": "CinnamonSystem\\GradingForm.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAiwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T15:45:02.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T15:45:02.78Z"
             },
             {
               "$type": "Document",
@@ -145,8 +140,7 @@
               "RelativeToolTip": "CinnamonSystem\\dashboardform.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAewC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T13:45:05.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T13:45:05.857Z"
             },
             {
               "$type": "Document",
