@@ -32,22 +32,30 @@ namespace CinnamonSystem
         {
             try
             {
-                // 1. check empty
+                //  check empty
                 if (cmbWorkers.SelectedIndex == -1 || txtDiameter.Text == "" || txtWeight.Text == "" || txtMoisture.Text == "")
                 {
                     MessageBox.Show("Please fill in all fields.");
                     return;
                 }
 
-                // 2. values
+                // values
                 string worker = cmbWorkers.SelectedItem.ToString();
                 double diameter = Convert.ToDouble(txtDiameter.Text);
                 double weight = Convert.ToDouble(txtWeight.Text);
                 double moisture = Convert.ToDouble(txtMoisture.Text);
                 double pricePerKg = 0;
 
-                // 3. grading
-                if (diameter < 6)
+                //  grading
+                if (diameter < 6) 
+
+
+
+                  
+
+
+
+
                 {
                     txtGrade.Text = "Alba (Premium)";
                     pricePerKg = 4500;
@@ -66,7 +74,7 @@ namespace CinnamonSystem
                 double totalPayout = weight * pricePerKg;
                 txtPayout.Text = totalPayout.ToString();
 
-                // 4. conect xamp
+                //  conect xamp
                 string connString = "server=localhost;database=cinnamon_db;uid=root;pwd=;";
                 using (MySqlConnection conn = new MySqlConnection(connString))
                 {
@@ -86,7 +94,7 @@ namespace CinnamonSystem
                     }
                 }
 
-                //  Moisture Alert
+                //  moisture alert
                 if (moisture > 12)
                 {
                     MessageBox.Show("⚠️ MOISTURE ALERT: Saved to database, but batch needs more drying!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
