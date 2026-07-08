@@ -2,7 +2,6 @@
 To run the CGPS (Cinnamon Grading and Payout System) on your local machine, you must set up the MySQL database first. Follow these exact steps:
 
 Step 1: Start XAMPP
-
 Open your XAMPP Control Panel.
 
 Click Start next to Apache.
